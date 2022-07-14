@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+}
+
+/* -------------------------------------- Colors ------------------------------ */
+.green {
+    background-color: rgb(0, 181, 153);
+}
+
+.blue {
+    background-color: rgb(0, 162, 243);
+}
+
+.purple {
+    background-color: rgb(116, 61, 163);
+}
+
+.yellow {
+    background-color: rgb(250, 255, 181);
+    ;
+}
+
+.orange {
+    background-color: rgb(255, 226, 162);
+}
+
+.red {
+    background-color: rgb(255, 181, 206);
+}
+
+.white {
+    background-color: white;
+}
+
+.blue2 {
+    background-color: rgba(0, 42, 182, 0.815);
+}
+
+/* -------------------------------------- Containers ------------------------------ */
+
+.headContainer {
+    width: 100%;
+    height: 25%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.middleContainer {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.footContainer {
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 25%;
+}
+
+.mainContainer {
+    height: 100%;
+    width: 75%;
+    display: flex;
+    gap: 1cm;
+    flex-direction: column;
+    margin: auto;
+}
+
+.topContainer {
+    width: 100%;
+    height: 25%;
+    padding: 50px 25px;
+    font-size: x-large;
+}
+
+.bottomContainer {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    gap: 1cm;
+}
+
+.columnContainer {
+    width: 33%;
+    height: 100%;
+    padding: 25px;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 25px;
+}
+
+.sideBarContainer {
+    width: 10cm;
+    height: 15cm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+    margin: auto;
+}
+
+.sideBarBtnContainer {
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+/* -------------------------------------- Elements ------------------------------ */
+.main {
+    flex-grow: 3.25;
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.sideBar {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.nav {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.option {
+    width: 100%;
+    height: 15%;
+    font-size: x-large;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+.colorBox {
+    width: 100%;
+    height: 50%;
+    padding: 25px;
+}
+
+#middleColumn {
+    padding: 0;
+}
+
+.sideBarTitle {
+    color: gainsboro;
+    font-size: x-large;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.webSiteName {
+    color: rgb(99, 99, 99);
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.sideBarBtn {
+    width: 100%;
+    height: 50px;
+    background-color: inherit   ;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.sideBarBtn:hover {
+    cursor: pointer;
+    background-color: rgb(0, 183, 255);
+    color: blue;
+}
+
+.sideBarBtn:active {
+    background-color: rgba(0, 42, 182, 0.815);
+    color: white;
+}
+
+.sideBarBtn>span {
+    padding-left: 10px;
+}
+
+#moreMargin {
+    padding-left: 5px;
+    margin-right: 5px;
+}
+
+.non-selectable {
+    user-select: none;
+    -moz-user-select: none;
+}
